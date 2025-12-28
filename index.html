@@ -5,18 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Doe's portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="header">
+  <header class="header clear">
     <div class="container">
-      <div class="header-logo">John</div>
+      <div class="header-logo">
+        <a href="index.html">John</a>
+      </div>
       <nav class="header-nav">
-        <ul>
+        <ul class="header-nav-list">
           <li><a href="#">Blog</a></li>
           <li><a href="#">Login</a></li>
-          <li><button>btn</button></li>
+          <li><button>
+              <img src="img/btn-change-theme.svg" alt="change button">
+            </button></li>
         </ul>
       </nav>
     </div>
@@ -24,7 +33,7 @@
   <main>
     <section class="hero">
       <div class="container">
-        <div class="hero-profile">
+        <div class="hero-profile clear">
           <div class="hero-photo">
             <img src="img/human-photo.jpg" alt="Person's photo" width="205" height="205">
           </div>
@@ -55,13 +64,13 @@
     <section class="portfolio">
       <div class="container">
         <h2 class="section-title">Portfolio</h2>
-        <ul class="portfolio-list">
-          <li><img src="img/portfolio-1.jpg" alt="Portfolio 1" width="380" height="226"></li>
-          <li><img src="img/portfolio-2.jpg" alt="Portfolio 2" width="380" height="226"></li>
-          <li><img src="img/portfolio-3.jpg" alt="Portfolio 3" width="380" height="226"></li>
-          <li><img src="img/portfolio-4.jpg" alt="Portfolio 4" width="380" height="226"></li>
-          <li><img src="img/portfolio-5.jpg" alt="Portfolio 5" width="380" height="226"></li>
-          <li><img src="img/portfolio-6.jpg" alt="Portfolio 6" width="380" height="226"></li>
+        <ul class="portfolio-list clear">
+          <li class="portfolio-item"><img src="img/portfolio-1.jpg" alt="Portfolio 1" width="380" height="226"></li>
+          <li class="portfolio-item"><img src="img/portfolio-2.jpg" alt="Portfolio 2" width="380" height="226"></li>
+          <li class="portfolio-item"><img src="img/portfolio-3.jpg" alt="Portfolio 3" width="380" height="226"></li>
+          <li class="portfolio-item"><img src="img/portfolio-4.jpg" alt="Portfolio 4" width="380" height="226"></li>
+          <li class="portfolio-item"><img src="img/portfolio-5.jpg" alt="Portfolio 5" width="380" height="226"></li>
+          <li class="portfolio-item"><img src="img/portfolio-6.jpg" alt="Portfolio 6" width="380" height="226"></li>
         </ul>
       </div>
     </section>
